@@ -1,0 +1,11 @@
+﻿<Window x:Class="UserPresenceWpf.SaveCSVFile"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Enter CSV Filename" Width="200" Height="80" 
+        WindowStyle="None" WindowStartupLocation="CenterScreen">
+    <StackPanel>
+        <TextBlock Text="Enter Output Filename" />
+        <TextBox x:Name="ResponseTextBox" />
+        <Button Content="OK" Click="OKButton_Click" />
+    </StackPanel>
+</Window>

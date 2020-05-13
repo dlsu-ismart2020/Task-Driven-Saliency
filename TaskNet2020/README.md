@@ -18,7 +18,7 @@ The model has three architectures integrated with different Deep Neural Networks
 #### Generating Saliency Map
 1.  Download the needed files.
 2.  Update the path in ```` generate_saliencymap.py ```` where caffe python is installed.
-3.  Update the following in the run_generatemap.py file:
+3.  Update the following in the ```` run_generatemap.py ```` file:
     
     **IMPORTANT:**	always edit and check the file/folder path if the directory is manually changed.
     * prototxt file path
@@ -31,5 +31,6 @@ The model has three architectures integrated with different Deep Neural Networks
     ````
 5.  The output saliency maps are found at the variable ```` output_path ```` indicated in the ```` run_generatemap.py ```` file.
     
-    
+#### Fine-tuning the TaskNet Model
+See our **[technical manual](https://tinyurl.com/TaskNetTechnicalManual)** for more detailed instructions. The caffemodel files of the three TaskNet architectures can be downloaded **[here](https://tinyurl.com/ArchitectureCaffemodels)**.
 

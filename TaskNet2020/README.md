@@ -5,12 +5,16 @@ The model has three architectures integrated with different Deep Neural Networks
 
 ### Using TaskNet
 
-##### Requirements
-1.  **Python** 
+#### Requirements
+1.  **Python**
+
     The pycaffe is compatible with Python 2.7. or Python 3.3+.
     The following packages should be installed as well: numpy, PIL, matplotlib, and scipy.
 2.  **Caffe and pycaffe**
+
     Instructions and requirements for the installation of Caffe and pycaffe can be found at **[link](http://caffe.berkeleyvision.org/installation.html)**.
     After installing, go to ```` makefile.config ```` file and uncomment the line ````python WITH_PYTHON_LAYER := 1 ```` to enable the Python layer.
+    
+    
     
 

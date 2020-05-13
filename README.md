@@ -6,3 +6,6 @@ The eye tracking program is based on https://github.com/commanderking/EyeTracker
 
 ### Fixation Data Post-Processing
 The Fixation Data Post-Processing folder contains two files: fixation.m and SplitFixationData.py. Please refer to the user or technical manuals on how to use these.
+
+### TaskNet Saliency Model
+TaskNet Model is a task-driven saliency model that aims to predict road traffic incidents. This model outputs a saliency map that simulates the eye fixation of a human and represents the visual saliency on road traffic scenarios. 

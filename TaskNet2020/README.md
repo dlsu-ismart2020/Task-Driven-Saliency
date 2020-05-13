@@ -19,8 +19,9 @@ The model has three architectures integrated with different Deep Neural Networks
 1.  Download the needed files.
 2.  Update the path in ```` generate_saliencymap.py ```` where caffe python is installed.
 3.  Update the following in the run_generatemap.py file:
+    
     **IMPORTANT:**	always edit and check the file/folder path if the directory is manually changed.
- Markup :    * prototxt file path
+    * prototxt file path
     * Tasknet caffemodel file path
     * input & output folder path  (images must be a jpg file and filename should be numeric)	
     * variable size and start (start is for filename of the image)	

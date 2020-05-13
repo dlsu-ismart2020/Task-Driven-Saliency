@@ -9,3 +9,6 @@ The Fixation Data Post-Processing folder contains two files: fixation.m and Spli
 
 ### TaskNet Saliency Model
 TaskNet Model is a task-driven saliency model that aims to predict road traffic incidents. This model outputs a saliency map that simulates the eye fixation of a human and represents the visual saliency on road traffic scenarios. 
+
+### TaskFix Dataset
+TaskFix is a new task-driven dataset of road traffic images with eye-tracking data of 18 observers. It consists of 359 abnormal (with road incidents) and normal (no road incidents) each. The dataset has 3 variations: TaskFix, TaskFix<sub>MOD</sub>, and TaskFix<sub>ABN</sub>. It can be downloaded at this **[link](https://tinyurl.com/TaskFix2020)**. 

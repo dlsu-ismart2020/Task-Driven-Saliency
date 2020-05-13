@@ -9,7 +9,7 @@ The model has three architectures integrated with different Deep Neural Networks
 1.  **Python**
 
     The pycaffe is compatible with Python 2.7. or Python 3.3+.
-    The following packages should be installed as well: numpy, PIL, matplotlib, and scipy.
+    The following packages should be installed as well: `numpy`, `cv2`, `PIL`, `matplotlib`, and `scipy`.
 2.  **Caffe and pycaffe**
 
     Instructions and requirements for the installation of Caffe and pycaffe can be found at **[link](http://caffe.berkeleyvision.org/installation.html)**.
@@ -19,7 +19,9 @@ The model has three architectures integrated with different Deep Neural Networks
 1.  Download the needed files.
 2.  Update the path in ```` generate_saliencymap.py ```` where caffe python is installed.
 3.  Update the following in the run_generatemap.py file:
+
 **IMPORTANT:**	always edit and check the file/folder path if the directory is manually changed.
+
     * prototxt file path
     * Tasknet caffemodel file path
     * input & output folder path  (images must be a jpg file and filename should be numeric)	
